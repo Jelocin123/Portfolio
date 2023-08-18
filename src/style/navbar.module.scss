@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+@keyframes borderMove {
+    0% {
+      width: 0;
+      margin-left: 0;
+    }
+    50% {
+      width: 100%;
+      margin-left: 0;
+    }
+    100% {
+      width: 0;
+      margin-left: 100%;
+    }
+  }
+
+  .borderWrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+  }
+  
+  .animatedBorder {
+    width: 0;
+    height: 100%;
+    background-color: #a69797; 
+    animation: borderMove 6s infinite;
+  }
+  
+  @keyframes borderMove {
+    0%, 100% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+  }
+
+  
+
+
+.navContainer {
+
+    position: relative;
+    overflow: hidden;
+    background-color: #2d3e40;
+    border-bottom: 1px solid #979f9c;
+ 
+
+
+    .logo {
+        width: calc(10em + 10vh);
+    }
+    
+    .navCenter {
+        margin-left: calc(1.5em + 1.5vh);
+    }
+
+    ul {
+
+        li {
+
+            a{
+
+                font-size: 24px;
+                margin-right: calc(.6em + .5vh);
+                font-family: 'Cutive Mono', monospace;
+
+            }
+
+        }
+
+    }
+}
+
+#mail {
+    color: #ffffff8c;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+}
+
+
