@@ -23,14 +23,17 @@ const Portfolio = () => {
     };
 
     useEffect(() => {
-        const gallery = GLightbox({
+        if (typeof window !== 'undefined') {
+          // Code that relies on the window object
+          const gallery = GLightbox({
             selector: '.portfolio-lightbox'
-        });
-
-        return () => {
+          });
+    
+          return () => {
             gallery.destroy();
+          };
         }
-    }, []);
+      }, []);
 
     
     
