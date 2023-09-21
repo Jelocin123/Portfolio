@@ -7,7 +7,6 @@ import About from '@/components/about';
 import Skills from '@/components/skills';
 import Resume from '@/components/resume';
 import Portfolio from '@/components/portfolio';
-
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons';
 import AOS from 'aos';

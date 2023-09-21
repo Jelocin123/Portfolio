@@ -16,7 +16,7 @@ const resume = () => {
                     <h3 className={styles.resume_title}>Oversigt</h3>
                     <div className={`${styles.resume_item} pb-0`}>
                         <h4>Nicolej Basse</h4>
-                        <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate pariatur rerum, voluptas porro nulla, autem architecto iste minima minus voluptate ex eius dignissimos quibusdam. Odit omnis alias fugiat libero illum</em></p>
+                        <p><em>Jeg er en Ung gut som til dagligt bor i grenå, jeg kan godt lidt at sidde ved min Playstation og spille diverse spil, og ellers kan jeg godt lidt at sidde ved min computer og prøve at uddybe mig i nogle emner inde for kodning.</em></p>
                         <ul>
                             <li>Krattet 286, Grenå, ØST</li>
                             <li>+45 93893031</li>

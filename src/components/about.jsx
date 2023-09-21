@@ -11,15 +11,15 @@ const About = () => {
             <div className='container' id={styles.me}>
                 <div className={styles.section_title}>
                 <h2>About</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero minima tenetur quibusdam doloremque, quae, perspiciatis iusto architecto voluptatibus veritatis voluptatem consequatur unde, autem doloribus omnis ex expedita! Amet perferendis exercitationem excepturi.</p>
+                <p>Her er lidt Information omkring mig</p>
                 </div>
                 <div className={`row ${styles.section_about}`}>
                     <div className='col-lg-4' data-aos='fade-right' data-aos-duration='900'  >
                         <Image src={Kylo} alt='KyloDog' className='img-fluid  ' />
                     </div>
                     <div className='col-lg-8 pt-4 pt-lg-0 content' data-aos="fade-left" data-aos-duration='900' >
-                        <h3> UI Lorem ipsum dolor sit amet. Lorem, ipsum.</h3>
-                        <p className='fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores necessitatibus quo qui. Numquam, non ad quibusdam blanditiis vitae in?</p>
+                        <h3>Nicolej Basse</h3>
+                        
                         <div className='row'>
                             <div className='col-lg-6'>
                                 <ul>
@@ -70,7 +70,7 @@ const About = () => {
                                 </ul>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae id odio ad pariatur eum, qui reprehenderit, quibusdam sit corporis eligendi nulla nam veritatis praesentium? Aspernatur repellat quos repellendus</p>
+                        
                     </div>
                 </div>
             </div>

@@ -40,7 +40,7 @@ const portfolio = () => {
         <div className='container' id={styles.me}>
                 <div className={styles.section_title}>
                     <h2>Portfolio</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas quidem dignissimos debitis consequatur sint eaque magni quis beatae repudiandae. Repellat repudiandae error eaque ullam earum similique reiciendis id enim.</p>
+                    <p>Her er nogle af de skole opgaver som jeg har fået lavet, der er mulighed for at vise nogle flere, hvor der er blevet arbejdet med MongoDB og Supabase.</p>
                 </div>
                 <div className='row' data-aos="fade-up">
                     <div className='col-lg-12 d-flex justify-content-center'>
