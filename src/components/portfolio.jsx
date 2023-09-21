@@ -14,7 +14,7 @@ import 'glightbox/dist/css/glightbox.css';
 
 
 
-const portfolio = () => {
+const Portfolio = () => {
 
     const [activeFilter, setActiveFilter] = useState('*');
 
@@ -159,4 +159,4 @@ const portfolio = () => {
   )
 }
 
-export default portfolio
+export default Portfolio

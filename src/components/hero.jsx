@@ -33,8 +33,11 @@ const Hero = () => {
       <div className='hero-container' data-aos="fade-in">
         <h1>Nicolej Basse</h1>
         <p>
-          Jeg er <span className={styles.hidden_quotes}>"</span>
-          <span ref={typedRef} className='typed'></span>
+        <p>
+  Jeg er <span className={styles.hidden_quotes}>&quot;</span>
+  <span ref={typedRef} className='typed'></span>
+</p>
+
           
         </p>
       </div>
