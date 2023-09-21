@@ -71,12 +71,7 @@ const navbar = () => {
                 <span>Portfolio</span>
               </a>
             </li>
-            <li>
-              <a className='nav-link scrollto' href="#contact" onClick={() => scrollToSection('contact')}>
-                <i className="bi bi-envelope"></i>
-                <span>Contact</span>
-              </a>
-            </li>
+           
           </ul>
         </nav>
       </div>

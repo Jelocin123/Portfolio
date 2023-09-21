@@ -12,7 +12,7 @@ const Hero = () => {
     AOS.init();
 
     const options = {
-      strings: ["Designer", "Developer", "Freelancer", "Photographer"],
+      strings: ["Designer", "Developer", "Freelancer", "Nørd"],
       typeSpeed: 150, // Adjust typing speed here
       backSpeed: 60, // Adjust erasing speed here
       backDelay: 1000, // Pause before erasing
@@ -31,7 +31,7 @@ const Hero = () => {
 
   return (
     <section id={styles.hero} className='d-flex flex-column justify-content-center align-items-center'>
-      {/* <div className='hero-container' data-aos="fade-in">
+      <div className='hero-container' data-aos="fade-in">
         <h1>Nicolej Basse</h1>
         <p>
         <p>
@@ -41,7 +41,7 @@ const Hero = () => {
 
           
         </p>
-      </div> */}
+      </div>
     </section>
   );
 };

@@ -28,21 +28,25 @@ const About = () => {
                                         <strong>Fødselsdag:</strong>
                                         <span>3 Marts 2001</span>
                                     </li>
+                                    <hr />
                                     <li>
                                         <i className='bi bi-chevron-right'></i>
                                         <strong>Telefon:</strong>
                                         <span>+45 93893031</span>
                                     </li>
+                                    <hr />
                                     <li>
                                         <i className='bi bi-chevron-right'></i>
                                         <strong>By:</strong>
                                         <span>Grenå</span>
                                     </li>
+                                    <hr />
                                     <li>
                                         <i className='bi bi-chevron-right'></i>
                                         <strong>Skole:</strong>
                                         <span>VidenDjurs 3D</span>
                                     </li>
+                                    <hr />
                                 </ul>
                             </div>
                             <div className='col-lg-6'>
@@ -52,21 +56,25 @@ const About = () => {
                                         <strong>Alder:</strong>
                                         <span>22</span>
                                     </li>
+                                    <hr />
                                     <li>
                                         <i className='bi bi-chevron-right'></i>
                                         <strong>Uddannelse:</strong>
                                         <span>Igangværende</span>
                                     </li>
+                                    <hr />
                                     <li>
                                         <i className='bi bi-chevron-right'></i>
                                         <strong>Email</strong>
                                         <span>Nicolej.basse123@gmail.com</span>
                                     </li>
+                                    <hr />
                                     <li>
                                         <i className='bi bi-chevron-right'></i>
                                         <strong>Skole mail:</strong>
                                         <span>Nico997b@videndjurs.net</span>
                                     </li>
+                                    <hr />
                                 </ul>
                             </div>
                         </div>

@@ -18,13 +18,13 @@ import 'aos/dist/aos.css';
 
 export default function Home() {
 
-//   useEffect(() => {
-//     GLightbox();
-//   }, []);
+  // useEffect(() => {
+  //   GLightbox();
+  // }, []);
 
-//   useEffect(() => {
-//     AOS.init();
-// }, []);
+  useEffect(() => {
+    AOS.init();
+}, []);
 
   
   return (
