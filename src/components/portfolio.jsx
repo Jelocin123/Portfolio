@@ -10,8 +10,8 @@ import PreView4 from '../../public/assets/PreView4.png'
 import PreView5 from '../../public/assets/PreView5.png'
 import PreView6 from '../../public/assets/PreView6.png'
 import Link from 'next/link'
-import GLightbox from 'glightbox';
-import 'glightbox/dist/css/glightbox.css';
+// import GLightbox from 'glightbox';
+// import 'glightbox/dist/css/glightbox.css';
 
 
 
@@ -23,15 +23,15 @@ const Portfolio = () => {
         setActiveFilter(filter);
     };
 
-    useEffect(() => {
-        const gallery = GLightbox({
-            selector: '.portfolio-lightbox'
-        });
+    // useEffect(() => {
+    //     const gallery = GLightbox({
+    //         selector: '.portfolio-lightbox'
+    //     });
 
-        return () => {
-            gallery.destroy();
-        }
-    }, []);
+    //     return () => {
+    //         gallery.destroy();
+    //     }
+    // }, []);
 
     
     

@@ -11,16 +11,16 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import GLightbox from 'glightbox';
+// import GLightbox from 'glightbox';
 import 'boxicons';
 
 
 
 export default function Home() {
 
-  useEffect(() => {
-    GLightbox();
-  }, []);
+  // useEffect(() => {
+  //   GLightbox();
+  // }, []);
 
   useEffect(() => {
     AOS.init();
