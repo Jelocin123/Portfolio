@@ -7,12 +7,12 @@ import About from '@/components/about';
 import Skills from '@/components/skills';
 import Resume from '@/components/resume';
 import Portfolio from '@/components/portfolio';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import 'bootstrap-icons/font/bootstrap-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import GLightbox from 'glightbox';
-import 'boxicons';
+// import 'boxicons';
 
 
 
@@ -29,7 +29,7 @@ export default function Home() {
   
   return (
     <main id={styles.main}>
-      <Navbar/>
+      <Navbar/> 
       <Hero/>
       <About/>
       <Skills/>
