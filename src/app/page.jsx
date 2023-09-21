@@ -18,13 +18,13 @@ import 'boxicons';
 
 export default function Home() {
 
-  // useEffect(() => {
-  //   GLightbox();
-  // }, []);
+//   useEffect(() => {
+//     GLightbox();
+//   }, []);
 
-  useEffect(() => {
-    AOS.init();
-}, []);
+//   useEffect(() => {
+//     AOS.init();
+// }, []);
 
   
   return (
@@ -35,6 +35,7 @@ export default function Home() {
       <Skills/>
       <Resume/>
       <Portfolio/>
+      <div></div>
      
     </main>
   );
