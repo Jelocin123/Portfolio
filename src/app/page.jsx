@@ -26,16 +26,6 @@ export default function Home() {
     AOS.init();
 }, []);
 
-  useEffect(() => {
-    
-     window.scrollTo(0, 0);
-
-     window.scroll({
-      top: 1, 
-      left: 0, 
-      behavior: 'smooth',
-    });
-  }, []);
   
   return (
     <main id={styles.main}>

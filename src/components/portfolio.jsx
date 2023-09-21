@@ -1,36 +1,37 @@
-import React, { useEffect, useState } from 'react';
-import styles from '../style/portfolio.module.scss';
-import Image from 'next/image';
-import Kylo from '../../public/assets/kylo.jpg';
-import PreView1 from '../../public/assets/PreView1.png';
-import PreView2 from '../../public/assets/PreView2.png';
-import PreView3 from '../../public/assets/PreView3.png';
-import PreView4 from '../../public/assets/PreView4.png';
-import PreView5 from '../../public/assets/PreView5.png';
-import PreView6 from '../../public/assets/PreView6.png';
-import Link from 'next/link';
+"use client"
+import React, { useEffect, useState } from 'react'
+import styles from '../style/portfolio.module.scss'
+import Image from 'next/image'
+import Kylo from '../../public/assets/kylo.jpg'
+import PreView1 from '../../public/assets/PreView1.png'
+import PreView2 from '../../public/assets/PreView2.png'
+import PreView3 from '../../public/assets/PreView3.png'
+import PreView4 from '../../public/assets/PreView4.png'
+import PreView5 from '../../public/assets/PreView5.png'
+import PreView6 from '../../public/assets/PreView6.png'
+import Link from 'next/link'
 import GLightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.css';
 
+
+
 const Portfolio = () => {
-  const [activeFilter, setActiveFilter] = useState('*');
 
-  const handleFilterClick = (filter) => {
-    setActiveFilter(filter);
-  };
+    const [activeFilter, setActiveFilter] = useState('*');
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // Code that relies on the window object
-      const gallery = GLightbox({
-        selector: '.portfolio-lightbox'
-      });
+    const handleFilterClick = (filter) => {
+        setActiveFilter(filter);
+    };
 
-      return () => {
-        gallery.destroy();
-      };
-    }
-  }, []);
+    useEffect(() => {
+        const gallery = GLightbox({
+            selector: '.portfolio-lightbox'
+        });
+
+        return () => {
+            gallery.destroy();
+        }
+    }, []);
 
     
     
