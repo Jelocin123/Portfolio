@@ -1,0 +1,53 @@
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../../public/assets/hej.png") top center;
+    background-size: cover ;
+}
+
+#hero:before {
+    content: "";
+    background-color: rgba(5, 13, 24, 0.09);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #ffffff;
+
+}
+
+#hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#hero p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+}
+
+
+
+.hidden_quotes {
+    display: none;
+}

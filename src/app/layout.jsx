@@ -1,12 +1,11 @@
 
 import '../style/globals.scss'
-import { Inter } from 'next/font/google'
+
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'boxicons/css/boxicons.min.css'
 
 
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -16,7 +15,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">{children}</body>
+      
     </html>
   )
 }

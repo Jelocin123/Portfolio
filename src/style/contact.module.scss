@@ -1,0 +1,58 @@
+.contact {
+    padding-bottom: 130px;
+
+    .info {
+        padding: 30px;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    i {
+        font-size: 20px;
+        color: #149ddd;
+        float: left;
+        width: 44px;
+        height: 44px;
+        background-color: #dff3fc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transition: all 0.3 ease-in-out;
+    }
+}
+
+
+#me {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section_title {
+    padding-bottom: 30px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        color: #173b6c;
+
+    }
+    h2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: #149ddd;
+        bottom: 0;
+        left: 0;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
